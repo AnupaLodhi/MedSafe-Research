@@ -1,0 +1,20 @@
+[
+  {
+    "epoch": 1,
+    "global_step": 503,
+    "train_loss": 2.1657286673619183,
+    "validation_cer": 0.293285055957867,
+    "validation_wer": 0.62109375,
+    "validation_exact_match": 0.39461883408071746,
+    "elapsed_minutes": 13.02
+  },
+  {
+    "epoch": 2,
+    "global_step": 1006,
+    "train_loss": 0.8427000248397568,
+    "validation_cer": 0.2379855167873601,
+    "validation_wer": 0.576171875,
+    "validation_exact_match": 0.4327354260089686,
+    "elapsed_minutes": 12.98
+  }
+]

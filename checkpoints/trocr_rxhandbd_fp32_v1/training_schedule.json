@@ -1,0 +1,18 @@
+{
+  "epochs": 3,
+  "microbatch_size": 2,
+  "gradient_accumulation": 4,
+  "effective_batch_size": 8,
+  "microbatches_per_epoch": 2009,
+  "optimizer_updates_per_epoch": 503,
+  "total_planned_updates": 1509,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "max_gradient_norm": 1.0,
+  "max_target_length": 64,
+  "seed": 42,
+  "precision": "fp32",
+  "checkpoint_frequency": "every_completed_epoch",
+  "checkpoint_selection": "lowest_validation_corpus_CER",
+  "official_test_used": false
+}

@@ -1,0 +1,11 @@
+{
+  "method": "selective_training_vocabulary_correction",
+  "max_edit_distance": 2,
+  "min_similarity_margin": 15,
+  "similarity_scorer": "rapidfuzz_fuzz_ratio",
+  "distance_metric": "Levenshtein",
+  "vocabulary_source": "training_only",
+  "selection_source": "validation",
+  "evaluation_type": "exploratory",
+  "test_tuning_allowed": false
+}

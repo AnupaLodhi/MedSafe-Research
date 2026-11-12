@@ -1,0 +1,15 @@
+{
+  "vocabulary_source": "training_split_only",
+  "candidate_selection": "rapidfuzz_fuzz_ratio",
+  "edit_distance": "Levenshtein",
+  "configurations": {
+    "V2-A": {
+      "max_edit_distance": 2
+    },
+    "V2-B": {
+      "max_edit_distance": null
+    }
+  },
+  "selection_basis": "validation_results",
+  "test_tuning_allowed": false
+}

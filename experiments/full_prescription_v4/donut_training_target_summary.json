@@ -1,0 +1,11 @@
+{
+  "training_documents": 477,
+  "task_token": "<s_medsafe>",
+  "maximum_target_tokens": 115,
+  "median_target_tokens": 84.0,
+  "heldout_medications": [
+    "atorvastatin",
+    "ciprofloxacin",
+    "gabapentin"
+  ]
+}

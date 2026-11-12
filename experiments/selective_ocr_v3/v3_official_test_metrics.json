@@ -1,0 +1,11 @@
+{
+  "method": "V3 selective correction",
+  "samples": 1115,
+  "cer": 0.3479863481228669,
+  "wer": 0.6798706548100243,
+  "exact_accuracy": 0.36591928251121075,
+  "correct": 408,
+  "changed": 109,
+  "fixed": 48,
+  "harmed": 7
+}

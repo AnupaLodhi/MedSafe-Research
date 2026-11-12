@@ -1,0 +1,8 @@
+{
+  "dataset_id": "naazimsnh02/medocr-vision-dataset",
+  "revision": "0ef1e2525b83d030878d8c234fa6f8592d961d19",
+  "total_images": 2462,
+  "train": 1969,
+  "validation": 246,
+  "test": 247
+}

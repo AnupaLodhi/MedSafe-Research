@@ -1,0 +1,18 @@
+{
+  "heldout_medications": [
+    "atorvastatin",
+    "ciprofloxacin",
+    "gabapentin"
+  ],
+  "training_group": "clean_train",
+  "validation_groups": [
+    "seen_validation",
+    "unseen_validation"
+  ],
+  "test_groups": [
+    "seen_test",
+    "unseen_test"
+  ],
+  "training_leakage_count": 0,
+  "evaluation_note": "A document containing a held-out medicine may also contain seen medicines. Evaluate medication names separately from whole-document accuracy."
+}

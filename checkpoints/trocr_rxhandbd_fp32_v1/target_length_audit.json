@@ -1,0 +1,26 @@
+{
+  "model": "microsoft/trocr-base-handwritten",
+  "maximum_target_length": 64,
+  "train": {
+    "split": "train",
+    "samples": 4017,
+    "minimum_tokens": 3,
+    "median_tokens": 5.0,
+    "p95_tokens": 7.0,
+    "p99_tokens": 8.0,
+    "maximum_tokens": 10,
+    "labels_exceeding_64": 0,
+    "percentage_exceeding_64": 0.0
+  },
+  "validation": {
+    "split": "validation",
+    "samples": 446,
+    "minimum_tokens": 3,
+    "median_tokens": 5.0,
+    "p95_tokens": 7.0,
+    "p99_tokens": 8.0,
+    "maximum_tokens": 10,
+    "labels_exceeding_64": 0,
+    "percentage_exceeding_64": 0.0
+  }
+}

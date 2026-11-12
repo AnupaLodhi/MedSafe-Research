@@ -1,0 +1,22 @@
+{
+  "experiment": "trocr_rxhandbd_fp32_v1",
+  "model": "microsoft/trocr-base-handwritten",
+  "dataset": "RxHandBD",
+  "seed": 42,
+  "train_samples": 4017,
+  "validation_samples": 446,
+  "epochs": 3,
+  "batch_size": 2,
+  "gradient_accumulation_steps": 4,
+  "effective_batch_size": 8,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "precision": "fp32",
+  "max_target_length": 64,
+  "max_gradient_norm": 1.0,
+  "primary_validation_metric": "corpus_CER",
+  "checkpoint_selection": "lowest_validation_CER",
+  "pytorch_version": "2.14.1+cu130",
+  "transformers_version": "4.57.6",
+  "test_set_used": false
+}

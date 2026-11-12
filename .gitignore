@@ -218,3 +218,41 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# MedSafe research exclusions
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+
+# Credentials
+*credentials*
+*secret*
+kaggle.json
+token.json
+*.pem
+*.key
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Large datasets and archives
+*.zip
+*.tar
+*.gz
+*.parquet
+donut_train_images/
+*.png
+*.jpg
+*.jpeg
+
+# Notebook artifacts
+.ipynb_checkpoints/
+wandb/
+runs/

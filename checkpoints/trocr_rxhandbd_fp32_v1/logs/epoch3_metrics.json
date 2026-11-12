@@ -1,0 +1,11 @@
+{
+  "epoch": 3,
+  "global_step": 1509,
+  "validation_cer": 0.24325213956550362,
+  "validation_wer": 0.55859375,
+  "validation_exact_matches": 200,
+  "validation_exact_match_rate": 0.4484304932735426,
+  "previous_best_cer": 0.2379855167873601,
+  "improved_best_cer": false,
+  "elapsed_minutes": 16.481386117140453
+}

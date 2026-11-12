@@ -1,0 +1,21 @@
+{
+  "experiment": "TrOCR Phase 2 training pilot",
+  "model": "microsoft/trocr-base-handwritten",
+  "dataset": "RxHandBD",
+  "pilot_samples": 32,
+  "pilot_epochs": 2,
+  "batch_size": 2,
+  "gradient_accumulation_steps": 4,
+  "learning_rate": 5e-05,
+  "precision": "fp16",
+  "epoch_mean_losses": [
+    8.4141,
+    5.5703
+  ],
+  "successful_optimizer_updates": 6,
+  "planned_optimizer_updates": 8,
+  "skipped_updates": 2,
+  "peak_gpu_memory_gb": 6.41,
+  "validation_evaluated": false,
+  "note": "Diagnostic pilot only. Not a final trained checkpoint or evidence of validation improvement."
+}

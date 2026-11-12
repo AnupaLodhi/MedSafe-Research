@@ -1,0 +1,18 @@
+{
+  "dataset": "RxHandBD",
+  "split": "official_test",
+  "test_samples": 1115,
+  "selected_checkpoint_epoch": 2,
+  "checkpoint_selection_metric": "validation_CER",
+  "validation_cer": 0.2379855167873601,
+  "test_cer": 0.3563139931740614,
+  "test_wer": 0.7162489894907034,
+  "test_exact_matches": 367,
+  "test_exact_match_accuracy": 0.3291479820627803,
+  "decoding": {
+    "max_new_tokens": 32,
+    "num_beams": 1,
+    "normalization": "strip_and_casefold"
+  },
+  "elapsed_minutes": 1.6810447732607523
+}

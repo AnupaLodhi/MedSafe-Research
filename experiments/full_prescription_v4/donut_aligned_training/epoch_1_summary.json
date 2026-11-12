@@ -1,0 +1,16 @@
+{
+  "epoch": 1,
+  "training_examples": 477,
+  "learning_rate": 1e-05,
+  "batch_size": 1,
+  "gradient_accumulation": 4,
+  "image_resolution": [
+    640,
+    480
+  ],
+  "mean_training_loss": 1.2577054724233925,
+  "successful_updates": 117,
+  "skipped_updates": 3,
+  "elapsed_seconds": 278.8491451740265,
+  "peak_gpu_memory_gib": 3.824606418609619
+}
